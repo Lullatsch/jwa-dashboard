@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-08-17_05-22-08",
+    "leaderboard_id": "708",
+    "captured_at": "2026-08-17T05:22:14.544546+00:00",
+    "label": "[Seasonal] 2026-08 - Legendary Pierce Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-08-17_04-54-56",
     "leaderboard_id": "712",
     "captured_at": "2026-08-17T04:55:04.167489+00:00",
@@ -292,11 +298,5 @@
     "leaderboard_id": "706",
     "captured_at": "2026-08-03T07:42:14.248580+00:00",
     "label": "[Tournament] 2026-07-W5 - Coin Tournament"
-  },
-  {
-    "snapshot_folder": "2026-08-02_23-45-58",
-    "leaderboard_id": "699",
-    "captured_at": "2026-08-02T23:47:05.302610+00:00",
-    "label": "[Seasonal] 2026-07 - Coelotator Seasonal League"
   }
 ]
