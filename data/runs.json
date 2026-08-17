@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-08-17_04-54-56",
+    "leaderboard_id": "712",
+    "captured_at": "2026-08-17T04:55:04.167489+00:00",
+    "label": "[Tournament] 2026-08-W2 - DNA Tournament"
+  },
+  {
     "snapshot_folder": "2026-08-16_22-33-39",
     "leaderboard_id": "712",
     "captured_at": "2026-08-16T22:33:46.205277+00:00",
@@ -292,11 +298,5 @@
     "leaderboard_id": "699",
     "captured_at": "2026-08-02T23:47:05.302610+00:00",
     "label": "[Seasonal] 2026-07 - Coelotator Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-08-02_17-35-42",
-    "leaderboard_id": 706,
-    "captured_at": "2026-08-02T17:36:52.181111+00:00",
-    "label": "[Tournament] 2026-07-W5 - Coin Tournament"
   }
 ]
