@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-08-19_05-13-56",
+    "leaderboard_id": "708",
+    "captured_at": "2026-08-19T05:14:03.080162+00:00",
+    "label": "[Seasonal] 2026-08 - Legendary Pierce Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-08-18_17-04-56",
     "leaderboard_id": "708",
     "captured_at": "2026-08-18T17:05:03.874202+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-08-04_23-47-45",
     "leaderboard_id": "699",
     "captured_at": "2026-08-04T23:49:27.539542+00:00",
-    "label": "[Seasonal] 2026-07 - Coelotator Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-08-04_12-32-12",
-    "leaderboard_id": "699",
-    "captured_at": "2026-08-04T12:33:23.047420+00:00",
     "label": "[Seasonal] 2026-07 - Coelotator Seasonal League"
   }
 ]
