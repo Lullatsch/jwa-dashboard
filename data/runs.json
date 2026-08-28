@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-08-28_01-09-06",
+    "leaderboard_id": "708",
+    "captured_at": "2026-08-28T01:09:12.686730+00:00",
+    "label": "[Seasonal] 2026-08 - Legendary Pierce Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-08-27_15-32-18",
     "leaderboard_id": "708",
     "captured_at": "2026-08-27T15:32:25.077321+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-08-14_11-32-08",
     "leaderboard_id": "708",
     "captured_at": "2026-08-14T11:32:15.863956+00:00",
-    "label": "[Seasonal] 2026-08 - Legendary Pierce Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-08-13_23-25-50",
-    "leaderboard_id": "708",
-    "captured_at": "2026-08-13T23:25:57.934758+00:00",
     "label": "[Seasonal] 2026-08 - Legendary Pierce Seasonal League"
   }
 ]
