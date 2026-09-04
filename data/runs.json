@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-09-04_18-58-22",
+    "leaderboard_id": "718",
+    "captured_at": "2026-09-04T18:58:30.807457+00:00",
+    "label": "[Tournament] 2026-09-W1 - Cash Tournament"
+  },
+  {
     "snapshot_folder": "2026-09-04_09-04-44",
     "leaderboard_id": "715",
     "captured_at": "2026-09-04T09:04:52.610982+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-08-21_05-16-41",
     "leaderboard_id": "708",
     "captured_at": "2026-08-21T05:16:47.668609+00:00",
-    "label": "[Seasonal] 2026-08 - Legendary Pierce Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-08-20_17-09-29",
-    "leaderboard_id": "708",
-    "captured_at": "2026-08-20T17:09:36.726369+00:00",
     "label": "[Seasonal] 2026-08 - Legendary Pierce Seasonal League"
   }
 ]
