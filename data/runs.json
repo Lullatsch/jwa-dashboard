@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-09-05_18-35-02",
+    "leaderboard_id": "715",
+    "captured_at": "2026-09-05T18:35:10.280024+00:00",
+    "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-09-05_18-12-54",
     "leaderboard_id": "718",
     "captured_at": "2026-09-05T18:13:02.463952+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-08-22_16-36-47",
     "leaderboard_id": "713",
     "captured_at": "2026-08-22T16:36:55.463904+00:00",
-    "label": "[Tournament] 2026-08-W3 - AEP Tournament"
-  },
-  {
-    "snapshot_folder": "2026-08-22_10-36-27",
-    "leaderboard_id": "713",
-    "captured_at": "2026-08-22T10:36:34.472496+00:00",
     "label": "[Tournament] 2026-08-W3 - AEP Tournament"
   }
 ]
