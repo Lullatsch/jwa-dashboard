@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-09-07_20-10-23",
+    "leaderboard_id": "715",
+    "captured_at": "2026-09-07T20:10:30.947785+00:00",
+    "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-09-07_09-45-46",
     "leaderboard_id": "715",
     "captured_at": "2026-09-07T09:45:53.679600+00:00",
@@ -292,11 +298,5 @@
     "leaderboard_id": "708",
     "captured_at": "2026-08-24T05:25:11.558191+00:00",
     "label": "[Seasonal] 2026-08 - Legendary Pierce Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-08-24_04-57-41",
-    "leaderboard_id": "713",
-    "captured_at": "2026-08-24T04:57:49.592500+00:00",
-    "label": "[Tournament] 2026-08-W3 - AEP Tournament"
   }
 ]
