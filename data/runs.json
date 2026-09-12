@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-09-12_00-13-17",
+    "leaderboard_id": "719",
+    "captured_at": "2026-09-12T00:13:24.579599+00:00",
+    "label": "[Tournament] 2026-09-W2 - DNA Tournament"
+  },
+  {
     "snapshot_folder": "2026-09-11_19-18-22",
     "leaderboard_id": "715",
     "captured_at": "2026-09-11T19:18:31.169291+00:00",
@@ -292,11 +298,5 @@
     "leaderboard_id": "714",
     "captured_at": "2026-08-29T03:41:58.680430+00:00",
     "label": "[Tournament] 2026-08-W4 - Coin Tournament"
-  },
-  {
-    "snapshot_folder": "2026-08-28_16-56-08",
-    "leaderboard_id": "708",
-    "captured_at": "2026-08-28T16:56:15.891864+00:00",
-    "label": "[Seasonal] 2026-08 - Legendary Pierce Seasonal League"
   }
 ]
