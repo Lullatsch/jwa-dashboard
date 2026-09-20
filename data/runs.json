@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-09-20_00-07-40",
+    "leaderboard_id": "720",
+    "captured_at": "2026-09-20T00:07:47.863625+00:00",
+    "label": "[Tournament] 2026-09-W3 - AEP Tournament"
+  },
+  {
     "snapshot_folder": "2026-09-19_18-56-42",
     "leaderboard_id": "715",
     "captured_at": "2026-09-19T18:56:50.162680+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-09-06_08-37-52",
     "leaderboard_id": "718",
     "captured_at": "2026-09-06T08:38:00.364898+00:00",
-    "label": "[Tournament] 2026-09-W1 - Cash Tournament"
-  },
-  {
-    "snapshot_folder": "2026-09-05_23-50-37",
-    "leaderboard_id": "718",
-    "captured_at": "2026-09-05T23:50:44.930035+00:00",
     "label": "[Tournament] 2026-09-W1 - Cash Tournament"
   }
 ]
