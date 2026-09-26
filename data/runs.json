@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-09-26_14-25-35",
+    "leaderboard_id": "721",
+    "captured_at": "2026-09-26T14:25:42.652513+00:00",
+    "label": "[Tournament] 2026-09-W4 - Catalyst Tournament"
+  },
+  {
     "snapshot_folder": "2026-09-26_09-32-27",
     "leaderboard_id": "715",
     "captured_at": "2026-09-26T09:32:34.630851+00:00",
@@ -292,11 +298,5 @@
     "leaderboard_id": "715",
     "captured_at": "2026-09-12T18:47:23.642985+00:00",
     "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-09-12_18-19-44",
-    "leaderboard_id": "719",
-    "captured_at": "2026-09-12T18:19:50.637410+00:00",
-    "label": "[Tournament] 2026-09-W2 - DNA Tournament"
   }
 ]
