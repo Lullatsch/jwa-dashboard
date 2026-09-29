@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-09-29_10-55-16",
+    "leaderboard_id": "715",
+    "captured_at": "2026-09-29T10:55:24.758353+00:00",
+    "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-09-28_22-17-08",
     "leaderboard_id": "715",
     "captured_at": "2026-09-28T22:17:16.880587+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-09-16_09-32-04",
     "leaderboard_id": "715",
     "captured_at": "2026-09-16T09:32:11.742491+00:00",
-    "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-09-15_19-50-29",
-    "leaderboard_id": "715",
-    "captured_at": "2026-09-15T19:50:36.860145+00:00",
     "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
   }
 ]
