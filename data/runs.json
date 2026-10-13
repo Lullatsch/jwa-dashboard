@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-10-13_21-33-51",
+    "leaderboard_id": "726",
+    "captured_at": "2026-10-13T21:34:00.394208+00:00",
+    "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-10-13_12-12-13",
     "leaderboard_id": "726",
     "captured_at": "2026-10-13T12:12:20.842117+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-09-28_22-17-08",
     "leaderboard_id": "715",
     "captured_at": "2026-09-28T22:17:16.880587+00:00",
-    "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-09-28_11-14-59",
-    "leaderboard_id": "715",
-    "captured_at": "2026-09-28T11:15:06.386726+00:00",
     "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
   }
 ]
