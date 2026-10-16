@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-10-16_19-31-56",
+    "leaderboard_id": "730",
+    "captured_at": "2026-10-16T19:32:04.194798+00:00",
+    "label": "[Tournament] 2026-10-W2 - Coin Tournament"
+  },
+  {
     "snapshot_folder": "2026-10-16_09-18-32",
     "leaderboard_id": "726",
     "captured_at": "2026-10-16T09:18:39.804405+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-10-01_21-23-40",
     "leaderboard_id": "715",
     "captured_at": "2026-10-01T21:23:48.268700+00:00",
-    "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-10-01_11-11-27",
-    "leaderboard_id": "715",
-    "captured_at": "2026-10-01T11:11:35.503288+00:00",
     "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
   }
 ]
