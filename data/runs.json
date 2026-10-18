@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-10-18_18-57-31",
+    "leaderboard_id": "726",
+    "captured_at": "2026-10-18T18:57:39.863282+00:00",
+    "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-10-18_18-36-02",
     "leaderboard_id": "730",
     "captured_at": "2026-10-18T18:36:10.480184+00:00",
@@ -292,11 +298,5 @@
     "leaderboard_id": "722",
     "captured_at": "2026-10-04T19:33:59.757147+00:00",
     "label": "[Tournament] 2026-09-W5 - Coin Tournament"
-  },
-  {
-    "snapshot_folder": "2026-10-04_10-46-11",
-    "leaderboard_id": "715",
-    "captured_at": "2026-10-04T10:46:18.870092+00:00",
-    "label": "[Seasonal] 2026-09 - Epic Titanosaurus Seasonal League"
   }
 ]
