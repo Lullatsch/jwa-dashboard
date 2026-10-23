@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-10-23_20-06-15",
+    "leaderboard_id": "726",
+    "captured_at": "2026-10-23T20:06:23.004720+00:00",
+    "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-10-23_19-55-57",
     "leaderboard_id": "731",
     "captured_at": "2026-10-23T19:56:04.257042+00:00",
@@ -292,11 +298,5 @@
     "leaderboard_id": "729",
     "captured_at": "2026-10-09T20:50:10.616703+00:00",
     "label": "[Tournament] 2026-10-W1 - Cash Tournament"
-  },
-  {
-    "snapshot_folder": "2026-10-09_11-31-29",
-    "leaderboard_id": "726",
-    "captured_at": "2026-10-09T11:31:36.284095+00:00",
-    "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
   }
 ]
