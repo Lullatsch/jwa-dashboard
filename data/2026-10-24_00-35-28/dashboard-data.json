@@ -14866,7 +14866,7 @@
         {
           "creature_id": "a9232b3721137054eaa4e882c821b8a2",
           "display_name": "MAGNAPYRITOR",
-          "image_path": "",
+          "image_path": "/assets/creatures/Img_Dimepirry.png",
           "rarity": "",
           "rarity_color": "#1fe06f",
           "team_usage_rate": 0.01
@@ -15571,7 +15571,7 @@
           "creature_id": "f85f5564ed6dca64a935f59101dc932d",
           "display_name": "Mutadon",
           "image_path": "",
-          "rarity": "",
+          "rarity": "Unique",
           "rarity_color": "#1fe06f",
           "team_usage_rate": 0.74
         },
@@ -15579,7 +15579,7 @@
           "creature_id": "9ccf6f23c07255f4a877c7de9e8c5b08",
           "display_name": "Distortus Rex",
           "image_path": "",
-          "rarity": "",
+          "rarity": "Unique",
           "rarity_color": "#1fe06f",
           "team_usage_rate": 0.71
         },
@@ -15595,7 +15595,7 @@
           "creature_id": "6080615abfbc40444afe86a400e656e5",
           "display_name": "Quetzalvexus",
           "image_path": "",
-          "rarity": "",
+          "rarity": "Apex",
           "rarity_color": "#14181f",
           "team_usage_rate": 0.45
         },
@@ -15618,16 +15618,16 @@
         {
           "creature_id": "57d72c4c09f72cc44941c2e105f88479",
           "display_name": "Tyrannotor",
-          "image_path": "",
-          "rarity": "",
+          "image_path": "/assets/creatures/Img_Tyrannoto.png",
+          "rarity": "Apex",
           "rarity_color": "#14181f",
           "team_usage_rate": 0.34
         },
         {
           "creature_id": "433c19487521c5645b5f83c6c8dc7757",
           "display_name": "Indoraptor Mattel",
-          "image_path": "/assets/creatures/Img_Indorapto.png",
-          "rarity": "",
+          "image_path": "/assets/creatures/Img_Indorapto3.png",
+          "rarity": "Apex",
           "rarity_color": "#14181f",
           "team_usage_rate": 0.32
         },
@@ -15650,8 +15650,8 @@
         {
           "creature_id": "ac6873467c67283459cf0b8994bd986f",
           "display_name": "Aliorasuchus",
-          "image_path": "",
-          "rarity": "",
+          "image_path": "/assets/creatures/Img_Aliorasuc.png",
+          "rarity": "Unique",
           "rarity_color": "#1fe06f",
           "team_usage_rate": 0.23
         },
@@ -15682,16 +15682,16 @@
         {
           "creature_id": "009fa61d4c8eac7459fab99f85c4a21b",
           "display_name": "Stomatosuchus Mattel",
-          "image_path": "",
-          "rarity": "",
+          "image_path": "/assets/creatures/Img_Stomatosu.png",
+          "rarity": "Unique",
           "rarity_color": "#1fe06f",
           "team_usage_rate": 0.13
         },
         {
           "creature_id": "5dca40ec4ada02c4bb67a5a8e330cf04",
           "display_name": "Quetzaldraco",
-          "image_path": "",
-          "rarity": "",
+          "image_path": "/assets/creatures/Img_Quetzaldr.png",
+          "rarity": "Unique",
           "rarity_color": "#1fe06f",
           "team_usage_rate": 0.11
         },
@@ -15738,8 +15738,8 @@
         {
           "creature_id": "b4b0192f5fbaa8442b022ca626d08732",
           "display_name": "Koolatrax",
-          "image_path": "",
-          "rarity": "",
+          "image_path": "/assets/creatures/Img_Koolatra.png",
+          "rarity": "Unique",
           "rarity_color": "#1fe06f",
           "team_usage_rate": 0.05
         },
@@ -15770,8 +15770,8 @@
         {
           "creature_id": "5e01fe2a9675dc44aba4b1b46b86e1d6",
           "display_name": "Cryolophosaurus Mattel",
-          "image_path": "/assets/creatures/Img_Cryolopho.png",
-          "rarity": "",
+          "image_path": "/assets/creatures/Img_Cryolopho2.png",
+          "rarity": "Unique",
           "rarity_color": "#1fe06f",
           "team_usage_rate": 0.03
         },
