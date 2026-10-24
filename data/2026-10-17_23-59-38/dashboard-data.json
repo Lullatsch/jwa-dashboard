@@ -827,7 +827,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 35.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -1775,7 +1775,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 35.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -2417,7 +2417,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 35.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -2976,7 +2976,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 30.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -3256,7 +3256,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 29.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -4085,7 +4085,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 35.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -5187,7 +5187,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 35.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -5380,7 +5380,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 35.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -7127,7 +7127,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 35.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -7339,7 +7339,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 32.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -8424,7 +8424,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 32.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -12095,7 +12095,7 @@
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
           "enhancement_level": 0,
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "level": 35.0,
           "omega_ability_unlocks": [],
           "omega_training_points": {},
@@ -14067,7 +14067,7 @@
       },
       "creature_id": "283bbe3ba3bc93c4680919d245126853",
       "display_name": "MEGISTOTHERIUM",
-      "image_path": "/assets/creatures/Img_Megisthothe.png",
+      "image_path": "",
       "median_leaderboard_score": 1405.0,
       "median_unassigned_omega_points": null,
       "omega_ability_unlocks": [],
@@ -14828,7 +14828,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.09
@@ -15388,7 +15388,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.09
@@ -15932,7 +15932,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.1
@@ -16468,7 +16468,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.11
@@ -16972,7 +16972,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.11
@@ -17460,7 +17460,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.12
@@ -17884,7 +17884,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.11
@@ -18348,7 +18348,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.1
@@ -18804,7 +18804,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.11
@@ -19284,7 +19284,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.1
@@ -19724,7 +19724,7 @@
         {
           "creature_id": "283bbe3ba3bc93c4680919d245126853",
           "display_name": "MEGISTOTHERIUM",
-          "image_path": "/assets/creatures/Img_Megisthothe.png",
+          "image_path": "",
           "rarity": "",
           "rarity_color": "#ffcf3f",
           "team_usage_rate": 0.09
