@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-10-26_21-53-19",
+    "leaderboard_id": "726",
+    "captured_at": "2026-10-26T21:53:27.641725+00:00",
+    "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-10-26_11-33-33",
     "leaderboard_id": "726",
     "captured_at": "2026-10-26T11:33:39.182656+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-10-13_12-12-13",
     "leaderboard_id": "726",
     "captured_at": "2026-10-13T12:12:20.842117+00:00",
-    "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-10-12_23-14-34",
-    "leaderboard_id": "726",
-    "captured_at": "2026-10-12T23:14:42.009277+00:00",
     "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
   }
 ]
