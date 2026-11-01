@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-11-01_21-08-49",
+    "leaderboard_id": "732",
+    "captured_at": "2026-11-01T21:08:56.699163+00:00",
+    "label": "[Tournament] 2026-10-W4 - DNA Tournament"
+  },
+  {
     "snapshot_folder": "2026-11-01_12-02-06",
     "leaderboard_id": "726",
     "captured_at": "2026-11-01T12:02:13.761243+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-10-18_18-36-02",
     "leaderboard_id": "730",
     "captured_at": "2026-10-18T18:36:10.480184+00:00",
-    "label": "[Tournament] 2026-10-W2 - Coin Tournament"
-  },
-  {
-    "snapshot_folder": "2026-10-18_13-58-16",
-    "leaderboard_id": "730",
-    "captured_at": "2026-10-18T13:58:24.104645+00:00",
     "label": "[Tournament] 2026-10-W2 - Coin Tournament"
   }
 ]
