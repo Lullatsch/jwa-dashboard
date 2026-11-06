@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-11-06_13-14-32",
+    "leaderboard_id": "735",
+    "captured_at": "2026-11-06T13:14:39.578684+00:00",
+    "label": "[Seasonal] 2026-11 - Unique Mutadon Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-11-05_22-53-35",
     "leaderboard_id": "735",
     "captured_at": "2026-11-05T22:53:41.527037+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-10-23_09-36-35",
     "leaderboard_id": "726",
     "captured_at": "2026-10-23T09:36:42.723593+00:00",
-    "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-10-22_20-18-58",
-    "leaderboard_id": "726",
-    "captured_at": "2026-10-22T20:19:06.160630+00:00",
     "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
   }
 ]
