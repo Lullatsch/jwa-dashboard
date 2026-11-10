@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-11-10_00-51-45",
+    "leaderboard_id": "735",
+    "captured_at": "2026-11-10T00:51:51.703792+00:00",
+    "label": "[Seasonal] 2026-11 - Unique Mutadon Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-11-09_14-22-49",
     "leaderboard_id": "735",
     "captured_at": "2026-11-09T14:22:55.937957+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-10-26_11-00-19",
     "leaderboard_id": "731",
     "captured_at": "2026-10-26T11:00:26.675970+00:00",
-    "label": "[Tournament] 2026-10-W3 - AEP Tournament"
-  },
-  {
-    "snapshot_folder": "2026-10-26_01-06-29",
-    "leaderboard_id": "731",
-    "captured_at": "2026-10-26T01:06:37.053330+00:00",
     "label": "[Tournament] 2026-10-W3 - AEP Tournament"
   }
 ]
