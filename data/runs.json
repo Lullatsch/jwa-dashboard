@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-11-14_21-41-11",
+    "leaderboard_id": "735",
+    "captured_at": "2026-11-14T21:41:17.825215+00:00",
+    "label": "[Seasonal] 2026-11 - Unique Mutadon Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-11-14_21-24-48",
     "leaderboard_id": "739",
     "captured_at": "2026-11-14T21:24:56.132613+00:00",
@@ -292,11 +298,5 @@
     "leaderboard_id": "726",
     "captured_at": "2026-10-31T11:15:02.165366+00:00",
     "label": "[Seasonal] 2026-10 - Legendary Rebirth Quetzalcoatlus Seasonal League"
-  },
-  {
-    "snapshot_folder": "2026-10-31_10-53-21",
-    "leaderboard_id": "732",
-    "captured_at": "2026-10-31T10:53:28.606364+00:00",
-    "label": "[Tournament] 2026-10-W4 - DNA Tournament"
   }
 ]
