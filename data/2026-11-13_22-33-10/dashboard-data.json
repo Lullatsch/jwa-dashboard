@@ -21678,6 +21678,502 @@
       ],
       "leaderboard_id": "739",
       "snapshot_folder": "2026-11-13_22-33-10"
+    },
+    {
+      "captured_at": "2026-11-14T03:07:48.170424+00:00",
+      "captured_team_count": 100,
+      "creature_usage": [
+        {
+          "creature_id": "9ccf6f23c07255f4a877c7de9e8c5b08",
+          "display_name": "Distortus Rex",
+          "image_path": "/assets/creatures/Img_Tyrannoce.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.85
+        },
+        {
+          "creature_id": "ae7e193e6e138794d9c77f26ccf9bd7f",
+          "display_name": "JUNIOR",
+          "image_path": "/assets/creatures/Img_Tyrannoju.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.84
+        },
+        {
+          "creature_id": "b51ac6f2478c8ec4f9dbbd4af7153f3b",
+          "display_name": "CONCATOSAURUS",
+          "image_path": "/assets/creatures/Img_Concatosa.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.59
+        },
+        {
+          "creature_id": "bb682affc6b30484a8d27160f67bb943",
+          "display_name": "TYRANNODACTYLUS",
+          "image_path": "/assets/creatures/Img_Tyrannoda.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.56
+        },
+        {
+          "creature_id": "b2740366f7f7d9b49a866c909f3d2af6",
+          "display_name": "SINRAPTOR",
+          "image_path": "/assets/creatures/Img_Sinraptor.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.53
+        },
+        {
+          "creature_id": "060a07acc7e14804699ae3039efa5ab7",
+          "display_name": "YUTYRANNUS",
+          "image_path": "/assets/creatures/Img_Yutyrannu.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.47
+        },
+        {
+          "creature_id": "60a99a8e31cf340498f6b5c0e275aafa",
+          "display_name": "MASTODONSAURUS",
+          "image_path": "/assets/creatures/Img_Mastodons.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.45
+        },
+        {
+          "creature_id": "16caa9eaa9ceab64494f1f9fdd7096c8",
+          "display_name": "KLUGES MÄDCHEN",
+          "image_path": "/assets/creatures/Img_Clevergirl.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.45
+        },
+        {
+          "creature_id": "f85f5564ed6dca64a935f59101dc932d",
+          "display_name": "Mutadon",
+          "image_path": "/assets/creatures/Img_Veloptera.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.42
+        },
+        {
+          "creature_id": "eccd92efb3166be498132e217dd195a5",
+          "display_name": "OVINNOLOPHOSAURUS",
+          "image_path": "/assets/creatures/Img_Ovinnolop.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.3
+        },
+        {
+          "creature_id": "f21f4370c60996849b7eb30abc89114a",
+          "display_name": "STEGOSAURUS UNGULATUS",
+          "image_path": "/assets/creatures/Img_Stegoungu.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.21
+        },
+        {
+          "creature_id": "d04120d62eee3574aa714724580e2a90",
+          "display_name": "PANTHERATOR",
+          "image_path": "/assets/creatures/Img_Pantherato.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.18
+        },
+        {
+          "creature_id": "7980e00f63d8f364b9789155469731ec",
+          "display_name": "REXY",
+          "image_path": "/assets/creatures/Img_Trexg3.png",
+          "rarity": "",
+          "rarity_color": "#ff4a68",
+          "team_usage_rate": 0.18
+        },
+        {
+          "creature_id": "3b83065f4ab001948b42bdc9b17c9991",
+          "display_name": "DEINOMIMUS",
+          "image_path": "/assets/creatures/Img_Deinomimu.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.14
+        },
+        {
+          "creature_id": "ea39a455069143a4d84b5bb700a4f66a",
+          "display_name": "OLOROTITAN",
+          "image_path": "/assets/creatures/Img_Olorotita.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.14
+        },
+        {
+          "creature_id": "9b2a2f3ec50961a4189b2a85a859fa27",
+          "display_name": "BARYOSAURUS",
+          "image_path": "/assets/creatures/Img_Baryosaur.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.13
+        },
+        {
+          "creature_id": "d9a6705b360952549ad9fef5d21d058c",
+          "display_name": "NYCTOPTERYX",
+          "image_path": "/assets/creatures/Img_Nyctopter.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.13
+        },
+        {
+          "creature_id": "cbcfb363fa1ce504eb50dc48fa524824",
+          "display_name": "MASIAKASAURUS",
+          "image_path": "/assets/creatures/Img_Masiakasa.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.13
+        },
+        {
+          "creature_id": "6fcebfed6790bc848b9bbf5c50c8e420",
+          "display_name": "SPINOSAURUS AEGYPTIACUS",
+          "image_path": "/assets/creatures/Img_Spinosaeg.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.1
+        },
+        {
+          "creature_id": "b7d3e356007be5c4b9ab994faee5eb65",
+          "display_name": "AQUIRAPTOR",
+          "image_path": "/assets/creatures/Img_Aquirapto.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.09
+        },
+        {
+          "creature_id": "9073b03c97c06b04aa0de4331827ffca",
+          "display_name": "PROTONODON",
+          "image_path": "/assets/creatures/Img_Protonodo.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.09
+        },
+        {
+          "creature_id": "b165ed7e923d95b41b17ec0e668d218d",
+          "display_name": "KLASSISCHER 93ER-T-REX",
+          "image_path": "/assets/creatures/Img_Tyrannomat.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.08
+        },
+        {
+          "creature_id": "0ad8a6a035cde6b4cb1853fe85f2bc26",
+          "display_name": "RATIVATES",
+          "image_path": "/assets/creatures/Img_Rativates.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.06
+        },
+        {
+          "creature_id": "a27ab798c90a027419fed86d0d1eb6ea",
+          "display_name": "TYRANNOSAURUS-WEIBCHEN",
+          "image_path": "/assets/creatures/Img_Tyrannodo.png",
+          "rarity": "",
+          "rarity_color": "#ff4a68",
+          "team_usage_rate": 0.06
+        },
+        {
+          "creature_id": "f7951a1023951af4d855c93d8807bc38",
+          "display_name": "GIGANTSPINOSAURUS",
+          "image_path": "/assets/creatures/Img_Gigantspi.png",
+          "rarity": "",
+          "rarity_color": "#ffcf3f",
+          "team_usage_rate": 0.06
+        },
+        {
+          "creature_id": "a1a1798beb90b2440b934e3d31c3eb56",
+          "display_name": "PANTHERA",
+          "image_path": "/assets/creatures/Img_Panthera.png",
+          "rarity": "",
+          "rarity_color": "#ffcf3f",
+          "team_usage_rate": 0.06
+        },
+        {
+          "creature_id": "b6583cfe9964c35419a3ed339995354b",
+          "display_name": "DAKOTACURUS",
+          "image_path": "/assets/creatures/Img_Dakotacur.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.05
+        },
+        {
+          "creature_id": "028f015ad731abb4da2c255f32e0dd8c",
+          "display_name": "ARCTOCANIS",
+          "image_path": "/assets/creatures/Img_Arctocan.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.04
+        },
+        {
+          "creature_id": "2a9b3540921316b4a87c8fe537a1bd39",
+          "display_name": "PYRORIXIS",
+          "image_path": "/assets/creatures/Img_Pyrorixis.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.04
+        },
+        {
+          "creature_id": "6fbfb292379b1a249b7d7cf1e4bcf18d",
+          "display_name": "THYLOS INTREPIDUS",
+          "image_path": "/assets/creatures/Img_Thylosint.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.04
+        },
+        {
+          "creature_id": "e74e95b2af8d5bd488d1086ba6a30196",
+          "display_name": "BECKLOLYTH",
+          "image_path": "/assets/creatures/Img_Becklolyt.png",
+          "rarity": "",
+          "rarity_color": "#ff4a68",
+          "team_usage_rate": 0.03
+        },
+        {
+          "creature_id": "51e5bb3a58aab084eb23f840ff9ac5d9",
+          "display_name": "AENOCYONYX",
+          "image_path": "/assets/creatures/Img_Aenocyony.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.03
+        },
+        {
+          "creature_id": "0fb1736d33bb6a7488a06956aa8b3722",
+          "display_name": "SAUROPHAGANAX",
+          "image_path": "/assets/creatures/Img_Saurophag.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.03
+        },
+        {
+          "creature_id": "c897c6506e36d664091b6292151ffb33",
+          "display_name": "DRACOVENATOR",
+          "image_path": "/assets/creatures/Img_Dracovena.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.03
+        },
+        {
+          "creature_id": "c336f78189584884ab155b6023756d6c",
+          "display_name": "PANTHERA BLYTHEAE",
+          "image_path": "/assets/creatures/Img_Pantherably.png",
+          "rarity": "",
+          "rarity_color": "#ff4a68",
+          "team_usage_rate": 0.03
+        },
+        {
+          "creature_id": "c42b5cb0bc830e14aa861c37b1bf0f65",
+          "display_name": "TITANOTARKUS",
+          "image_path": "/assets/creatures/Img_Titanotar.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.03
+        },
+        {
+          "creature_id": "10ea4ea2fbe904c499bbea550d04c38d",
+          "display_name": "SKORPIOSTEGOTOPS",
+          "image_path": "/assets/creatures/Img_Skorpiosteg.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.03
+        },
+        {
+          "creature_id": "dcc115bc84cf0854497c741474a43734",
+          "display_name": "TORO",
+          "image_path": "/assets/creatures/Img_Toro.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.03
+        },
+        {
+          "creature_id": "009fa61d4c8eac7459fab99f85c4a21b",
+          "display_name": "Stomatosuchus Mattel",
+          "image_path": "",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.02
+        },
+        {
+          "creature_id": "523bd639e590ddc42a3fb00de144ea62",
+          "display_name": "ALBERTOCEVIA",
+          "image_path": "/assets/creatures/Img_Albertoce.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.02
+        },
+        {
+          "creature_id": "f4a7493b8c4c40844a6cf82214fd4976",
+          "display_name": "BOA-RAPTOR",
+          "image_path": "/assets/creatures/Img_Constrict.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.02
+        },
+        {
+          "creature_id": "c7f5952be9fd1d0429b1497697d2ae3f",
+          "display_name": "WIEDERGEBURT-T-REX",
+          "image_path": "/assets/creatures/Img_Trexg4.png",
+          "rarity": "",
+          "rarity_color": "#ff4a68",
+          "team_usage_rate": 0.02
+        },
+        {
+          "creature_id": "2d9989634d9cd934dad79c625ef1511e",
+          "display_name": "BLONDIE",
+          "image_path": "/assets/creatures/Img_Blonde.png",
+          "rarity": "",
+          "rarity_color": "#ffcf3f",
+          "team_usage_rate": 0.02
+        },
+        {
+          "creature_id": "b43ca6f4b3661644fbf1e6d43f171b4d",
+          "display_name": "TRYKOSAURUS",
+          "image_path": "/assets/creatures/Img_Trykosaur.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.02
+        },
+        {
+          "creature_id": "3014ef47896ec9f4ab4e06218e67d180",
+          "display_name": "ATROCODISTIS",
+          "image_path": "/assets/creatures/Img_Atrocodis.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "12df9b5cfcd2cce48a3a87dbda15523e",
+          "display_name": "NOMINGIA",
+          "image_path": "/assets/creatures/Img_Nomingia.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "d98734df24e53c149973e3d9ed0fa208",
+          "display_name": "TENONTOREX",
+          "image_path": "/assets/creatures/Img_Tenontore.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "fcff6d1a19ac42845b514c7b6feb20f8",
+          "display_name": "BECKLOPHOSAURUS",
+          "image_path": "/assets/creatures/Img_Becklegam.png",
+          "rarity": "",
+          "rarity_color": "#ff4a68",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "8d061b54eb43ad342ac810830a40b618",
+          "display_name": "ESTEMMENOSUCHUS",
+          "image_path": "/assets/creatures/Img_Estemmeno.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "9a44929418628dc40b8f0597234fedc1",
+          "display_name": "YUXISAURUS",
+          "image_path": "/assets/creatures/Img_Yuxisauru.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "069ebe0152839c84ab240eed16ab8278",
+          "display_name": "LEAELLYNASAURA",
+          "image_path": "/assets/creatures/Img_Leaellyna.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "fe4e27a63343e2544b337a5b75b55274",
+          "display_name": "CRYOLOPHOSAURUS",
+          "image_path": "/assets/creatures/Img_Cryolopho.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "989470e67b4cdd84eaedd3e6c79a577f",
+          "display_name": "ERYTHROSUCHUS",
+          "image_path": "/assets/creatures/Img_Erythrosu.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "c8ee6de6f56f75d439560a51452cf37e",
+          "display_name": "TYRANNOMETRODON",
+          "image_path": "/assets/creatures/Img_Tyrannome.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "6b89cfc1493ccce4597ad43ae77fa7c4",
+          "display_name": "SEGNOTHERISAURUS",
+          "image_path": "/assets/creatures/Img_Segnother.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "046923f6ac87f6c4d933e73b1dca98a6",
+          "display_name": "ARDENTISMAXIMA",
+          "image_path": "/assets/creatures/Img_Ardentism.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "4f9c9f7535cb21440a24f2b8820a049e",
+          "display_name": "INDOTAURUS",
+          "image_path": "/assets/creatures/Img_Indotauru.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "e6affd2ef97644345830953e845b3742",
+          "display_name": "PARASAUTHOPS",
+          "image_path": "/assets/creatures/Img_Parasauth.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "f249e2c6472c9864eb6424e27583d402",
+          "display_name": "LITTLE EATIE",
+          "image_path": "/assets/creatures/Img_Littleeat.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "d937517a405d4cd44853c4e96bd68552",
+          "display_name": "DRACOCERATOSAURUS",
+          "image_path": "/assets/creatures/Img_Dracotosa.png",
+          "rarity": "",
+          "rarity_color": "#1fe06f",
+          "team_usage_rate": 0.01
+        },
+        {
+          "creature_id": "d5c3e425f4caa22498b512eb5105bbd6",
+          "display_name": "FUKUIRAPTOR",
+          "image_path": "/assets/creatures/Img_Fukuirapt.png",
+          "rarity": "",
+          "rarity_color": "#d7ecff",
+          "team_usage_rate": 0.01
+        }
+      ],
+      "leaderboard_id": "739",
+      "snapshot_folder": "2026-11-14_03-07-41"
     }
   ]
 }
