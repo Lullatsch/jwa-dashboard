@@ -1,5 +1,11 @@
 [
   {
+    "snapshot_folder": "2026-11-17_14-54-37",
+    "leaderboard_id": "735",
+    "captured_at": "2026-11-17T14:54:44.116459+00:00",
+    "label": "[Seasonal] 2026-11 - Unique Mutadon Seasonal League"
+  },
+  {
     "snapshot_folder": "2026-11-17_01-05-30",
     "leaderboard_id": "735",
     "captured_at": "2026-11-17T01:05:36.050992+00:00",
@@ -291,12 +297,6 @@
     "snapshot_folder": "2026-11-02_13-26-02",
     "leaderboard_id": "732",
     "captured_at": "2026-11-02T13:26:10.150858+00:00",
-    "label": "[Tournament] 2026-10-W4 - DNA Tournament"
-  },
-  {
-    "snapshot_folder": "2026-11-02_02-24-44",
-    "leaderboard_id": "732",
-    "captured_at": "2026-11-02T02:24:51.949478+00:00",
     "label": "[Tournament] 2026-10-W4 - DNA Tournament"
   }
 ]
