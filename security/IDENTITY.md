@@ -2,7 +2,9 @@
 
 Status 2026-11-24: local safeguards and GitHub workflow deployed and validated.
 Mandatory GitHub enforcement remains pending administrative configuration.
-No history rewrite, force push, credential removal or revocation is authorized.
+The operator authorized and completed the historical identity migration on
+2026-11-24, retaining all content. Further history rewrites and credential
+removal/revocation require separate explicit authorization.
 
 ## Policy and scope
 
@@ -14,10 +16,11 @@ Both raw author and raw committer must match an exact name/email pair:
   This is Git metadata, not proof of an authenticated GitHub bot account.
 
 `security/identities.json` freezes existing history at
-`696c40047667cc374c30040fcd3bf38a822a1d3b`. Only that commit and its ancestors
-are exempt. This permits the separately pending history migration without
-blocking on pre-existing private identities. Never advance this baseline to
-accommodate a new invalid commit. Mailmap and replacement objects cannot mask
+`56864ca5ea5fff51d8ee1da739881eeec522464e`, the mapped clean equivalent of the original
+pre-guard baseline after the authorized migration. Only that commit and its
+ancestors are exempt; all were individually verified to use approved identities.
+The migration is complete. Never advance this baseline to accommodate a new
+invalid commit or merge the old private-account history back into main. Mailmap and replacement objects cannot mask
 identities. Tags pointing to commits are checked; tagger identity and blob/tree
 tags are outside the commit-identity policy.
 
@@ -138,13 +141,13 @@ checkout now uses `fetch-depth: 0` so the baseline and commit graph are availabl
 
 ## Validation
 
-Run `python3 security/test_identity_guard.py`. Sixteen disposable-repository
+Run `python3 security/test_identity_guard.py`. Nineteen disposable-repository
 integration tests passed locally on 2026-11-24: approved human commit/push,
 private identity rejection, wrong email, explicit author and committer override,
 invalid push after hook bypass, invalid committer-only push, bot push,
 CI push/PR rejection and human/bot acceptance, new/deleted branches, initial
-push, annotated tag, multiple refs. Historical private commits remain allowed
-only as baseline ancestors. SSH greeting confirmed Lullatsch with agent and
+push, annotated tag, multiple refs, missing pre-rewrite CI tips and rejection of
+merged private history. The production baseline contains only approved identities. SSH greeting confirmed Lullatsch with agent and
 user SSH config disabled. No invalid test commit is sent to GitHub.
 
 Official references:
@@ -182,3 +185,41 @@ the exact candidate commit to a staging branch, wait for that commit's check to
 succeed, then fast-forward main to the same SHA. This needs a publisher change
 and validation of deploy-key branch permissions, concurrency and failure
 handling before enabling the ruleset. It is not deployed by this change.
+
+
+## Completed historical attribution migration — 2026-11-24
+
+The operator authorized reattributing the four legacy human commits to Lullatsch,
+keeping every content change. An isolated raw-object rewrite preserved all 349
+historical trees, commit messages, timestamps, remaining headers and parent
+order/topology; exactly four author and four committer pairs changed. This
+necessarily changed 104 commit hashes. The final historical root tree matched
+before/after exactly; `data/`, `docs/`, and `public_assets/` also remained identical
+after the additional policy/runbook commit. No bot identity was changed.
+
+A separate restricted full-history backup and old/new mapping are kept only in
+HomeServer's ignored `secrets/jwa-dashboard-history-20261124/`. No old-history
+backup branch/tag is published. Main publication uses an explicit expected-old-SHA
+`--force-with-lease` via the pinned Lullatsch SSH identity. If concurrent data
+publishing advances main, the lease must fail and the new commits be inspected.
+
+The guard's baseline is the mapped clean historical baseline, not the old DAG.
+CI handles a missing old push tip by validating the complete reachable graph
+beyond this baseline. A fresh clone must pass without access to old objects.
+
+### Existing checkout recovery
+
+Prefer a fresh clone and run `bash security/install.sh` to install local guards.
+Do not pull/merge/rebase old public history into the migrated branch. Before
+replacing an existing checkout, preserve any uncommitted work and unpublished
+commits outside that checkout; port needed changes as patches with approved
+identities. An old clone can retain legacy objects locally even after main moves.
+The host's clean managed dashboard checkout is refreshed to the new main.
+The hosted data publisher uses a fresh complete checkout each job.
+
+GitHub contributor statistics may take approximately 24 hours to refresh after
+a rewrite. If the private account remains in the contributor display after that,
+contact GitHub Support. Old commit URLs, caches, and external clones can retain
+old objects: this change removes the private attribution from reachable public
+main history, not every previously distributed copy. Official cache guidance:
+https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-a-projects-contributors

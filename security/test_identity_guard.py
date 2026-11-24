@@ -151,5 +151,25 @@ class GuardTests(unittest.TestCase):
         self.git('push', 'origin', 'good', 'main', ok=False)
 
 
+    def test_ci_missing_pre_rewrite_tip_accepts_clean_history(self):
+        self.make_commit()
+        self.ci({'before': '1' * 40, 'after': self.head()}, True)
+
+    def test_ci_missing_pre_rewrite_tip_rejects_bad_identity(self):
+        self.identity(BAD)
+        self.make_commit(False)
+        self.ci({'before': '1' * 40, 'after': self.head()}, False)
+
+    def test_old_private_history_merge_rejected(self):
+        self.git('checkout', '-b', 'old-clone')
+        self.identity(BAD)
+        self.make_commit(False)
+        self.git('checkout', 'main')
+        self.identity(HUMAN)
+        self.make_commit()
+        self.git('merge', '--no-verify', '--no-edit', 'old-clone')
+        self.git('push', 'origin', 'main', ok=False)
+        self.ci({'before': self.base, 'after': self.head()}, False)
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)

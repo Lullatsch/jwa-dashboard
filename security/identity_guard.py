@@ -93,7 +93,12 @@ def ci(event):
         return
     excludes = [baseline()]
     if set(before) != {'0'}:
-        excludes.append(before)
+        # A force-push may leave the old tip outside a fresh full clone. In that
+        # case validate the complete candidate graph beyond the clean baseline.
+        previous = subprocess.run(['git', 'cat-file', '-e', before + '^{commit}'],
+                                  stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        if previous.returncode == 0:
+            excludes.append(before)
     for oid in revisions([after], excludes):
         commit(oid)
 
