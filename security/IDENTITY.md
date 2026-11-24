@@ -1,6 +1,6 @@
 # Git identity safeguards
 
-Status 2026-11-24: local safeguards active; GitHub workflow prepared for deployment.
+Status 2026-11-24: local safeguards and GitHub workflow deployed and validated.
 Mandatory GitHub enforcement remains pending administrative configuration.
 No history rewrite, force push, credential removal or revocation is authorized.
 
@@ -38,7 +38,7 @@ only the supplied key, and uses batch mode. On this host the existing key is
 This account-specific key is also used by other Lullatsch repositories; no key
 was created, copied, revoked or re-registered. This is equivalent repository-local
 account isolation rather than a new repository-exclusive SSH key/host alias.
-The remote is `git@github.com:lullatsch/jwa-dashboard.git` with no push URL.
+The remote is `git@github.com:Lullatsch/jwa-dashboard.git` with no push URL.
 Keep HTTPS/token remotes out of this checkout.
 
 Before changing important config, make a restricted ignored backup. Verified
@@ -83,7 +83,8 @@ fixtures to GitHub. Push checks are detection after upload, not pre-receive hook
 
 Audited ruleset `20586074`, `Protect public dashboard main`, is active and has
 `deletion`, `non_fast_forward`, and `update` restrictions, but no required status
-check. Public API responses do not disclose its bypass list. Available connector
+check. The real main push explicitly reported a bypass of its update restriction
+for the authenticated Lullatsch account. Public API responses do not disclose its bypass list. Available connector
 tools cannot change rulesets or inspect deploy-key permissions/secrets; SSH push
 access does not grant REST administration. A repo administrator must inspect the
 full bypass list and add the successful `identity-check` context from GitHub
@@ -132,8 +133,8 @@ This audit cannot rule out unconnected machines or undisclosed external CI.
 Publisher hardening: explicitly set both author and committer environment pairs,
 set `user.useConfigOnly`, and enable dashboard `.githooks` after the bot commit
 and before pushing. This preserves the bot exception without installing the
-human pre-commit policy in CI. The private collector change must be deployed
-before claiming that safeguard is active.
+human pre-commit policy in CI. The private collector hardening is deployed on main through `b431564`. Its public
+checkout now uses `fetch-depth: 0` so the baseline and commit graph are available.
 
 ## Validation
 
@@ -150,3 +151,34 @@ Official references:
 - https://git-scm.com/docs/githooks
 - https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets
 - https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/creating-rulesets-for-a-repository
+
+
+### Deployment evidence
+
+- Dashboard implementation: `aba2c008`, normal push to main with exact human pair.
+- GitHub run https://github.com/Lullatsch/jwa-dashboard/actions/runs/45341298081
+  succeeded, including raw commit validation and all 16 integration tests.
+- Collector main: `49ac909` plus `b431564` (complete history needed by checker).
+- The exact collector public-artifact shell step was exercised against a local
+  bare remote with intentionally hostile inherited author/committer variables:
+  it pinned the exact bot pair and pushed successfully with the guard enabled.
+  An initial fixture lacked a tracking upstream and failed before push; correcting
+  the fixture to match an Actions branch checkout made the test pass. No remote
+  data collection or scheduled production publisher run was triggered.
+- Ruleset enforcement and inspection of actual deploy-key scopes remain manual
+  admin gates; the current result is PARTIAL for universal server-side prevention.
+
+### Concrete administrative setup
+
+`security/github-ruleset-main.json` is a deliberately **disabled** additional
+ruleset payload, preserving the existing ruleset and requiring the observed
+GitHub Actions app ID `15368` for `identity-check`, with no bypass actors.
+An administrator can create it through the GitHub rulesets API, inspect the
+result, then activate it only after validating the publishing path. See
+https://docs.github.com/en/rest/repos/rules . No admin token is stored here.
+
+Another way to retain SSH-only authentication while requiring checks is to push
+the exact candidate commit to a staging branch, wait for that commit's check to
+succeed, then fast-forward main to the same SHA. This needs a publisher change
+and validation of deploy-key branch permissions, concurrency and failure
+handling before enabling the ruleset. It is not deployed by this change.
