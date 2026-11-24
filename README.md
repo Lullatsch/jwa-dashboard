@@ -7,3 +7,6 @@ A static dashboard for exploring Jurassic World Alive leaderboard snapshots. It 
 Use the event and snapshot selectors to browse past captures. The dashboard also includes tournament rules and build details where they are available.
 
 This is an unofficial community project and is not affiliated with Jam City, Ludia, Universal, or Jurassic World Alive.
+
+Contributors: install the repository Git safeguards before committing; see
+[identity policy, automation audit and tests](security/IDENTITY.md).

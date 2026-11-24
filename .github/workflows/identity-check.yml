@@ -1,0 +1,29 @@
+name: Commit identity
+on:
+  pull_request:
+  push:
+    branches: ['**']
+    tags: ['**']
+permissions:
+  contents: read
+jobs:
+  identity-check:
+    name: identity-check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          # PR changes cannot replace the checker that validates the PR.
+          ref: ${{ github.event.pull_request.base.sha || github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Fetch PR objects without executing PR code
+        if: github.event_name == 'pull_request'
+        env:
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: git fetch --no-tags origin "$PR_HEAD"
+      - name: Check raw author and committer identities
+        run: python3 security/identity_guard.py ci
+      - name: Exercise identity rejection including local hook bypass
+        run: python3 security/test_identity_guard.py
